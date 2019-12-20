@@ -25,7 +25,7 @@ Connect your FTTI programmer to LoraPaper through the pins exposed on the bottom
 This MinimalTemplate demonstrates a simple counter, being updated everytime if there is sufficient energy harvested. The supercap voltage v_scap is measured minutely while the ATmega328p processor is in deep sleep all remaining time. Triggering is done via external RTC to minimize current consumption during deep sleep phase. IF the voltage is charged above a certain limit (ie 4.2V), an image update is triggered. 
 
 ### Example: WeatherForecast
-
+(coming soon)
 
 License Information
 -------------------
@@ -34,7 +34,7 @@ This library is **open source**!
 
 Libraries used in this sketch are based on the LoRaWAN stack from IDEETRON/NEXUS, for more infos please check this great source: https://github.com/Ideetron/Nexus-Low-Power
 
-Created by Robert Poser, Dez 19th 2019, Dresden/Germany. Released under GNU Lesser General Public License, either version 3 of the License, or (at your option) any later version), check license.md for more information.
+Created by Robert Poser, Dez 19th 2019, Dresden/Germany. Released under GNU Lesser General Public License, either version 3 of the License, or (at your option) any later version, check license.md for more information.
 
 We invested time and resources providing this  source code, please support Paperino and 
 open source hardware @Ideetron, @Adafruit and @Watterott.
