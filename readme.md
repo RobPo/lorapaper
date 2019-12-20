@@ -30,7 +30,7 @@ This MinimalTemplate demonstrates a simple counter, being updated everytime if t
 License Information
 -------------------
 
-This library is _**open source**_!
+This library is **open source**!
 
 Libraries used in this sketch are based on the LoRaWAN stack from IDEETRON/NEXUS, for more infos please check this great source: https://github.com/Ideetron/Nexus-Low-Power
 
