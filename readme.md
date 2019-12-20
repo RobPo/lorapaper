@@ -18,6 +18,6 @@ Please download and start the latest Arduino IDE. Select "Arduino Mini" in the m
 ### Hardware hookup
 
 Connect your FTTI programmer to LoraPaper through the pins exposed on the bottom side; either directly or through a breadboard and soldered pin row.
+![ftdi](https://user-images.githubusercontent.com/21104467/71294001-6f15c700-2377-11ea-91f3-f41ed5e0c1be.jpg)
 
 ### Example: MinimalTemplate
-![ELnUhBKW4AESw37](https://user-images.githubusercontent.com/21104467/71293786-c6676780-2376-11ea-8293-734deb2d60d1.jpg)
