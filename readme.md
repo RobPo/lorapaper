@@ -7,7 +7,7 @@ Welcome to the docs! This is an Arduino Library for LoraPaper, a TTN-connected 1
 ![lorapaper2](https://user-images.githubusercontent.com/21104467/71319613-09bdf500-24a1-11ea-9b56-77f6731cf4ea.png) 
 [*LoraPaper*](https://twitter.com/Paperino_io)
 
-Projects
+How To Use
 -------------------
 
 ### Installation
@@ -20,7 +20,7 @@ Connect your FTTI programmer to LoraPaper through the pins exposed on the bottom
 ![ftdi2](https://user-images.githubusercontent.com/21104467/71321525-9de88600-24ba-11ea-95f3-0afbbc627986.jpg)
 
 
-How To Use
+Projects
 -------------------
 These demo projects are for your inspiration! What will you implement with LoraPaper? Tell us, we’ll love to add your project here!
 
