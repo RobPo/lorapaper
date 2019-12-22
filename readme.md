@@ -1,10 +1,10 @@
 LoraPaper Arduino Library
 ===============================================================
 
-Welcome to the docs! This is an Arduino Library for LoraPaper, a TTN-connected 1.1” E-Paper node which is powered by harvested ambient light and thus energy-autark. 
+Welcome to the docs! This is an Arduino Library for LoraPaper, a TTN-connected 1.1” E-Paper node which is powered by ambient light and thus energy-autark. 
 
 
-(![lorapaper2](https://user-images.githubusercontent.com/21104467/71319613-09bdf500-24a1-11ea-9b56-77f6731cf4ea.png) 
+![lorapaper2](https://user-images.githubusercontent.com/21104467/71319613-09bdf500-24a1-11ea-9b56-77f6731cf4ea.png) 
 [*LoraPaper*](https://twitter.com/Paperino_io)
 
 How To Use
@@ -16,8 +16,8 @@ Please download and start the latest Arduino IDE. Select "Arduino Mini" in the m
 
 ### Hardware hookup
 
-Connect your FTTI programmer to LoraPaper through the pins exposed on the bottom side; either directly (see below) or through a breadboard and with soldered pin row (see above).
-![ftdi](https://user-images.githubusercontent.com/21104467/71319879-56ef9600-24a4-11ea-9a3a-a85d5ee03126.png)
+Connect your FTTI programmer to LoraPaper through the pins exposed on the bottom side; either directly (left) or through a breadboard and with soldered pin row (right):
+![ftdi2](https://user-images.githubusercontent.com/21104467/71321525-9de88600-24ba-11ea-95f3-0afbbc627986.jpg)
 
 ### Example: MinimalTemplate
 
@@ -35,6 +35,7 @@ Open the example 'WeatherForecast' and select the tab 'lorawan_def.h'. Here you 
 
 ![slora](https://user-images.githubusercontent.com/21104467/71319850-f1030e80-24a3-11ea-84f9-7d1ee86cc57c.jpg)
 
+After compiling and successful upload 
 
 License Information
 -------------------
