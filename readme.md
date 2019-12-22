@@ -25,17 +25,21 @@ This MinimalTemplate demonstrates a simple counter, being updated everytime if t
 
 ### Example: WeatherForecast
 
-#### Register LoraPaper at your TTN Console
+#### 1) Register LoraPaper at your TTN Console
 
 Now its time to add LoraPaper as new device to the TTN Console. After login, please select 'application' and 'register device'. Please add the Device ID and Device EUI  in the fields as provided with LoraPaper and select 'Register'. Then please reselect your newly added device and open the 'settings' view again. You will now see the new generated keys, please copy Device Adress, Network Session Key and the App Session Key since they will be added into the source code lateron. Finally, select 'ABP' as activation methode and deactivate 'frame counter checks'.
 
-#### Modify & Upload The Source Code
+#### 2) Schedule downloadable data at your TTN console
+
+![noderead](https://user-images.githubusercontent.com/21104467/71321577-86f66380-24bb-11ea-9006-7623f82b1441.jpg)
+
+#### 3) Modify & Upload The Source Code
 
 Open the example 'WeatherForecast' and select the tab 'lorawan_def.h'. Here you will need to add your previously generated keys:
 
 ![slora](https://user-images.githubusercontent.com/21104467/71319850-f1030e80-24a3-11ea-84f9-7d1ee86cc57c.jpg)
 
-After compiling and successful upload 
+After compiling and successful upload you should be able to receive the first data!
 
 License Information
 -------------------
