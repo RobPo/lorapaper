@@ -58,10 +58,11 @@ This library is **open source**!
 
 Libraries used in this sketch are based on the LoRaWAN stack from IDEETRON/NEXUS, for more infos please check this great source: https://github.com/Ideetron/Nexus-Low-Power
 
-Created by Robert Poser, Dez 19th 2019, Dresden/Germany. Released under GNU Lesser General Public License, either version 3 of the License, or (at your option) any later version, check license.md for more information.
+Libraries used in this sketch around the ePaper and the Example sketches are created by Robert Poser, Dez 19th 2019, Dresden/Germany. 
 
-We invested time and resources providing this  source code, please support Paperino and 
-open source hardware @Ideetron, @Adafruit and @Watterott.
+Released under GNU Lesser General Public License, either version 3 of the License, or (at your option) any later version, check license.md for more information.
+
+We invested time and resources providing this source code, please support open source hardware and software @Ideetron, @Adafruit, @Watterott and others.
 
 If you like this project please [follow us on Twitter](https://twitter.com/paperino_io).
 Having problems or have awesome suggestions? Contact us: paperino.display@gmail.com.
