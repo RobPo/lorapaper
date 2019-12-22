@@ -5,11 +5,11 @@ This MinimalTemplate demonstrates a simple counter, being updated everytime if t
 Example: WeatherForecast
 -------------------
 
-#### 1) Register LoraPaper at your TTN Console
+### 1) Register LoraPaper at your TTN Console
 
 Now its time to add LoraPaper as new device to the TTN Console. After login, please select 'application' and 'register device'. Please add the Device ID and Device EUI  in the fields as provided with LoraPaper and select 'Register'. Then please reselect your newly added device and open the 'settings' view again. You will now see the new generated keys, please copy Device Adress, Network Session Key and the App Session Key since they will be added into the source code lateron. Finally, select 'ABP' as activation methode and deactivate 'frame counter checks'.
 
-#### 2) Schedule downloadable data at your TTN console with NodeRED
+### 2) Schedule downloadable data at your TTN console with NodeRED
 
 There are several ways to add data to the TTN console, which can then be downloaded to your node once it comes online the next time. In this example the shown Node-RED flow is implemented; you can continue to use it or build your own flow.
 
@@ -19,11 +19,11 @@ Requesting a new weather API call can be triggered via a predefined timer (timer
 
 ![scheduled](https://user-images.githubusercontent.com/21104467/71321656-2a944380-24bd-11ea-957f-c4cb6a82c611.jpg)
 
-#### 3) Add the Encoder function to your TTN backend
+### 3) Add the Encoder function to your TTN backend
 
 Next we need to add an encoder function, which converts the weather data to a bytestream which can be sent during the next donwlink message. Please fill in the data from the file 'encoder.h' to the field in Application/Payload Format/Encoder.
 
-#### 4) Modify & Upload The Source Code
+### 4) Modify & Upload The Source Code
 
 Open the example 'WeatherForecast' and select the tab 'lorawan_def.h'. Here you will need to add your previously generated keys:
 
