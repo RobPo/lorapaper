@@ -102,7 +102,7 @@ void loop(){
         if (v_scap >= 0) {           // Always proceed --> Use this for debugging!             
             LPP.clearBuffer();         // Form a payload according to the LPP standard to 
             LPP.addDigitalOutput(0x00, app.Counter);
-            LPP.addAnalogInput(0x00, v_scap*3.3/1024*200);
+            LPP.addAnalogInput(0x00, v_scap*3.3/1024*4);
             app.Counter += 1;          // Increase app.Counter
 
             SPI.begin();

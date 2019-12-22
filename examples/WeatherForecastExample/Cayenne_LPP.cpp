@@ -131,7 +131,7 @@ void CayenneLPP::addAnalogInput(uint8_t channel, float value)
 		
 	// Add the digital value to the Transmit buffer.
 	buffer->Data[(buffer->Count) + 0] = channel;
-	buffer->Data[(buffer->Count) + 1] = LPP_ANALOG_INPUT_SIZE;
+	buffer->Data[(buffer->Count) + 1] = LPP_ANALOG_INPUT;
 	buffer->Data[(buffer->Count) + 2] = val >> 8;
 	buffer->Data[(buffer->Count) + 3] = val >> 0;
 	buffer->Count += LPP_ANALOG_INPUT_SIZE;
