@@ -39,7 +39,11 @@ Requesting a new weather API call can be triggered via a predefined timer (timer
 
 ![scheduled](https://user-images.githubusercontent.com/21104467/71321656-2a944380-24bd-11ea-957f-c4cb6a82c611.jpg)
 
-#### 3) Modify & Upload The Source Code
+#### 3) Add the Encoder function
+
+Next we need to add an encoder function, which converts the weather data to a bytestream which can be sent during the next donwlink message. Please fill in the data from the file 'encoder.h' to the field in Application/Payload Format/Encoder.
+
+#### 4) Modify & Upload The Source Code
 
 Open the example 'WeatherForecast' and select the tab 'lorawan_def.h'. Here you will need to add your previously generated keys:
 
