@@ -5,7 +5,7 @@ Welcome to the docs! This is an Arduino Library for LoraPaper, a TTN-connected 1
 goodbye to recharging or replacing empty batteries!
 
 
-![LoraPaper](https://user-images.githubusercontent.com/21104467/71291687-94a0d180-2373-11ea-8e2a-f3cf7f9ac0ab.png)  
+![LoraPaper](![lorapaper2](https://user-images.githubusercontent.com/21104467/71319613-09bdf500-24a1-11ea-9b56-77f6731cf4ea.png) 
 [*LoraPaper*](https://twitter.com/Paperino_io)
 
 How To Use
@@ -26,6 +26,10 @@ This MinimalTemplate demonstrates a simple counter, being updated everytime if t
 
 ### Example: WeatherForecast
 (coming soon)
+
+#### Device Registration at TTN Console
+
+No its time to add LoraPaper as new device at the TTN Console. After login, please select 'application' and 'register device'. Please add the Device ID and Device EUI  in the fields as provided with LoraPaper and select 'Register'. Then please reselect you new device and open the 'settings' view again. You will now see the new generated keys, please copy Device Adress, Network Session Key and the App Session Key since they will be added into the source code lateron. Finally, select 'ABP' as activation methode and deactivate 'frame counter checks'.
 
 License Information
 -------------------
