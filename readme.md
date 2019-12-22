@@ -17,14 +17,13 @@ Please download and start the latest Arduino IDE. Select "Arduino Mini" in the m
 ### Hardware hookup
 
 Connect your FTTI programmer to LoraPaper through the pins exposed on the bottom side; either directly (see below) or through a breadboard and with soldered pin row (see above).
-![ftdi](https://user-images.githubusercontent.com/21104467/71294001-6f15c700-2377-11ea-91f3-f41ed5e0c1be.jpg)
+![ftdi](https://user-images.githubusercontent.com/21104467/71319879-56ef9600-24a4-11ea-9a3a-a85d5ee03126.png)
 
 ### Example: MinimalTemplate
 
 This MinimalTemplate demonstrates a simple counter, being updated everytime if there is sufficient energy harvested. The supercap voltage v_scap is measured minutely while the ATmega328p processor is in deep sleep all remaining time. Triggering is done via external RTC to minimize current consumption during deep sleep phase. IF the voltage is charged above a certain limit (ie 4.2V), an image update is triggered. 
 
 ### Example: WeatherForecast
-(coming soon)
 
 #### Register LoraPaper at your TTN Console
 
