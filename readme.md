@@ -37,6 +37,7 @@ There are several ways to add data to the TTN console, which can then be downloa
 
 Requesting a new weather API call can be triggered via a predefined timer (timer, i.e. hourly) or after the node came online and just downloaded the present weather data (ttn uplink). With this setup we assure that there is always weather data available, no matter when the node came back online the last time. The orange box extract payload now parses the received html code and extracts only the relevant weather data we are interested in. As a result, the data size decreases from several kilobytes down to less than ten bytes. This payload is now configured in ttn-downlink to be downloaded to our weather station when it is online next time.
 
+![scheduled](https://user-images.githubusercontent.com/21104467/71321656-2a944380-24bd-11ea-957f-c4cb6a82c611.jpg)
 
 #### 3) Modify & Upload The Source Code
 
