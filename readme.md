@@ -51,6 +51,12 @@ Open the example 'WeatherForecast' and select the tab 'lorawan_def.h'. Here you 
 
 After compiling and successful upload you should be able to receive the first data!
 
+How To Use
+-------------------
+These demo projects are for your inspiration! What will you implement with LoraPaper? Tell us, we’ll love to add your project here!
+
+![weatherforecast](https://user-images.githubusercontent.com/21104467/71322081-819d1700-24c3-11ea-82ea-c91fb0ff736c.jpg)
+
 License Information
 -------------------
 
