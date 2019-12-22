@@ -1,8 +1,9 @@
-### Example: MinimalTemplate
-
+Example: MinimalTemplate
+-------------------
 This MinimalTemplate demonstrates a simple counter, being updated everytime if there is sufficient energy harvested. The supercap voltage v_scap is measured minutely while the ATmega328p processor is in deep sleep all remaining time. Triggering is done via external RTC to minimize current consumption during deep sleep phase. IF the voltage is charged above a certain limit (ie 4.2V), an image update is triggered. 
 
-### Example: WeatherForecast
+Example: WeatherForecast
+-------------------
 
 #### 1) Register LoraPaper at your TTN Console
 
@@ -29,19 +30,3 @@ Open the example 'WeatherForecast' and select the tab 'lorawan_def.h'. Here you 
 ![slora](https://user-images.githubusercontent.com/21104467/71319850-f1030e80-24a3-11ea-84f9-7d1ee86cc57c.jpg)
 
 After compiling and successful upload you should be able to receive the first data!
-
-License Information
--------------------
-
-This library is **open source**!
-
-Libraries used in this sketch are based on the LoRaWAN stack from IDEETRON/NEXUS, for more infos please check this great source: https://github.com/Ideetron/Nexus-Low-Power
-
-Libraries used in this sketch around the ePaper and the Example sketches are created by Robert Poser, Dez 19th 2019, Dresden/Germany. 
-
-Released under GNU Lesser General Public License, either version 3 of the License, or (at your option) any later version, check license.md for more information.
-
-We invested time and resources providing this source code, please support open source hardware and software @Ideetron, @Adafruit, @Watterott and others.
-
-If you like this project please [follow us on Twitter](https://twitter.com/paperino_io).
-Having problems or have awesome suggestions? Contact us: paperino.display@gmail.com.

@@ -7,7 +7,7 @@ Welcome to the docs! This is an Arduino Library for LoraPaper, a TTN-connected 1
 ![lorapaper2](https://user-images.githubusercontent.com/21104467/71319613-09bdf500-24a1-11ea-9b56-77f6731cf4ea.png) 
 [*LoraPaper*](https://twitter.com/Paperino_io)
 
-How To Use
+Projects
 -------------------
 
 ### Installation
