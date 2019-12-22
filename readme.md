@@ -29,9 +29,14 @@ This MinimalTemplate demonstrates a simple counter, being updated everytime if t
 
 Now its time to add LoraPaper as new device to the TTN Console. After login, please select 'application' and 'register device'. Please add the Device ID and Device EUI  in the fields as provided with LoraPaper and select 'Register'. Then please reselect your newly added device and open the 'settings' view again. You will now see the new generated keys, please copy Device Adress, Network Session Key and the App Session Key since they will be added into the source code lateron. Finally, select 'ABP' as activation methode and deactivate 'frame counter checks'.
 
-#### 2) Schedule downloadable data at your TTN console
+#### 2) Schedule downloadable data at your TTN console with NodeRED
+
+There are several ways to add data to the TTN console, which can then be downloaded to your node once it comes online the next time. In this example the shown Node-RED flow is implemented; you can continue to use it or build your own flow.
 
 ![noderead](https://user-images.githubusercontent.com/21104467/71321577-86f66380-24bb-11ea-9006-7623f82b1441.jpg)
+
+Requesting a new weather API call can be triggered via a predefined timer (timer, i.e. hourly) or after the node came online and just downloaded the present weather data (ttn uplink). With this setup we assure that there is always weather data available, no matter when the node came back online the last time. The orange box extract payload now parses the received html code and extracts only the relevant weather data we are interested in. As a result, the data size decreases from several kilobytes down to less than ten bytes. This payload is now configured in ttn-downlink to be downloaded to our weather station when it is online next time.
+
 
 #### 3) Modify & Upload The Source Code
 
