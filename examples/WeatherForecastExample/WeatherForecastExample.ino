@@ -99,10 +99,10 @@ void loop(){
         digitalWrite(SW_TFT, HIGH);    // Turn OFF voltage divider 
   
         //if (v_scap >= 320) {           // Proceed only if (Vscap > 4,2V)--> DEFAULT!
-        if (v_scap >= 0) {           // Always proceed --> Use this for debugging!             
+        if (v_scap >= 0) {             // Always proceed --> Use this for debugging!             
             LPP.clearBuffer();         // Form a payload according to the LPP standard to 
             LPP.addDigitalOutput(0x00, app.Counter);
-            LPP.addAnalogInput(0x00, v_scap*3.3/1024*4);
+            LPP.addAnalogInput(0x00, v_scap*3.3/1023*4);
             app.Counter += 1;          // Increase app.Counter
 
             SPI.begin();
