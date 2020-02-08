@@ -14,7 +14,7 @@ This is the place to get started! We have divided the documentation into the fol
 
 * **[Examples](https://github.com/RobPo/lorapaper/tree/master/examples)** - Ready to use examples for your own inspiration.
 * **[Reference](https://github.com/RobPo/lorapaper/tree/master/datasheets)** - Datasheets.
-* **[Hardware]()** - Schematic.
+* **[Hardware](https://github.com/RobPo/lorapaper/tree/master/schematics)** - Schematic.
 
 How To Use
 -------------------
